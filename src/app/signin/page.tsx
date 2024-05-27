@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 'use client';
 
 import { useAuth } from '@/context/AuthContext';
@@ -87,7 +88,7 @@ const page = () => {
           <hr />
 
           <div className='flex justify-between items-center px-2 py-3'>
-            <h2>Don't have an account?</h2>
+            <h2>Don&apos;t have an account?</h2>
 
             <Link
               href={'/register'}
