@@ -49,7 +49,7 @@ const PlanTrip = () => {
               height={20}
               className='mx-auto mb-3 w-auto h-auto'
             />
-            <h2 className='font-semibold mb-3'>Let's Drive</h2>
+            <h2 className='font-semibold mb-3'>Let&apos;s Drive</h2>
             <p className='text-black/50'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate illum quis animi consequatur veritatis mollitia
