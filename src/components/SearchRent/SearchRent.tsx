@@ -62,11 +62,9 @@ const SearchRent = () => {
               id='car'
               className='w-[220px]  border border-black px-3 rounded-md outline-none h-[30px] '
               onChange={handleChange}
+              defaultValue={'  Select your car'}
               required
             >
-              <option value='' disabled selected>
-                Select your car
-              </option>
               {Car.map((option) => (
                 <option key={option.value} value={option.value}>
                   {option.label}
@@ -88,11 +86,9 @@ const SearchRent = () => {
               id='Pickup'
               className='w-[220px]  border border-black px-3 rounded-md outline-none h-[30px]'
               onChange={handleChange}
+              defaultValue='select pickup'
               required
             >
-              <option value='' disabled selected>
-                Select Pickup
-              </option>
               {Pickup.map((option) => (
                 <option key={option.value} value={option.value}>
                   {option.label}
@@ -114,11 +110,9 @@ const SearchRent = () => {
               id='DropOff'
               className='w-[220px]  border border-black px-3 rounded-md outline-none h-[30px]'
               onChange={handleChange}
+              defaultValue={'select dropoff'}
               required
             >
-              <option value='' disabled selected>
-                Select Dropoff
-              </option>
               {DropOff.map((option) => (
                 <option key={option.value} value={option.value}>
                   {option.label}
