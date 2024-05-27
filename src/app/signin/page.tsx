@@ -33,7 +33,7 @@ const page = () => {
   };
 
   return (
-    <div className='min-h-screen absolute top-0 left-0 w-screen bg-blue-400'>
+    <div className='min-h-screen absolute top-0 left-0 w-screen bg-blue-400 z-10'>
       <Image
         src={'/logo.svg'}
         alt=''
