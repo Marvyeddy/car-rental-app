@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Roboto, Roboto_Flex } from 'next/font/google';
+import { Roboto_Flex } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer';
@@ -18,9 +18,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html lang='en-US'>
       <body className={`${inter.className} overflow-x-hidden`}>
-        <main className='relative font-Roboto min-h-screen lg:px-20 px-7 flex flex-col'>
+        <main className='relative min-h-screen lg:px-20 px-7'>
           <AuthContextProvider>
             <Navbar />
             {children}

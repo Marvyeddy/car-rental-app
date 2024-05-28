@@ -2,11 +2,11 @@ import Image from 'next/image';
 
 const PlanTrip = () => {
   return (
-    <div className='my-20 px-4'>
+    <div className='my-20 px-3'>
       <div>
         <div className='w-max mx-auto text-center'>
           <h2 className='font-bold text-xl mb-3'>Plan your Trip now</h2>
-          <h1 className='font-bold text-3xl'>Quick & Easy Car Rental</h1>
+          <h1 className='font-bold text-2xl'>Quick & Easy Car Rental</h1>
         </div>
 
         <div className='flex mt-10 flex-col text-center items-center gap-8 md:flex-row'>

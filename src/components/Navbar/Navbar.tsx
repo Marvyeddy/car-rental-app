@@ -16,6 +16,7 @@ const Navbar = () => {
   const handleSetNav = (index: number) => {
     setSelectedIndex(index);
   };
+
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -29,7 +30,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   const handleClickTrue = () => {
-    setIsOpen(true);
+    return setIsOpen(true);
   };
 
   const handleClickFalse = () => {
@@ -37,7 +38,7 @@ const Navbar = () => {
   };
 
   const signOut = () => {
-    logOut();
+    return logOut();
   };
 
   return (
@@ -53,7 +54,7 @@ const Navbar = () => {
               <Link
                 href={link.url}
                 key={index}
-                className={`mr-5 ${
+                className={`mr-5 font-medium ${
                   index === selectedIndex
                     ? `underline underline-offset-8 decoration-red-400 decoration-4`
                     : ``

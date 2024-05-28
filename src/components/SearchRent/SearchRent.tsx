@@ -47,7 +47,7 @@ const SearchRent = () => {
       </h2>
 
       <form onSubmit={handleSubmit}>
-        <div className='lg:flex items-center rounded-lg bg-white w-fit mx-auto lg:pl-20 px-7 py-3 flex-wrap gap-5 h-[70%]'>
+        <div className='lg:flex items-center rounded-lg w-fit mx-auto lg:pl-20 px-7 py-3 flex-wrap gap-5 h-[70%]'>
           {/* Car input */}
           <div className='lg:w-[30%] mb-2 flex flex-col items-center lg:items-start'>
             <div className='flex gap-3 items-center mb-2'>
@@ -62,7 +62,7 @@ const SearchRent = () => {
               id='car'
               className='w-[220px]  border border-black px-3 rounded-md outline-none h-[30px] '
               onChange={handleChange}
-              defaultValue={'  Select your car'}
+              defaultValue={'Select your car'}
               required
             >
               {Car.map((option) => (

@@ -4,7 +4,7 @@ import React from 'react';
 const Base = () => {
   return (
     <div
-      className='my-20 flex px-2 flex-col md:flex-row text-center md:text-left items-center justify-center'
+      className='my-20 flex px-2 flex-col md:flex-row text-center md:text-left items-center justify-center lg:ml-14'
       id='contact'
     >
       <div className='flex-1'>
